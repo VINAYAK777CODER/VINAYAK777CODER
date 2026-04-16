@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- Animated Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Vinayak&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Go%20Backend%20%7C%20MERN%20Stack&descAlignY=57&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Vinayak&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Go%20Backend%20%7C%20MERN%20Stack%20%7C%20AI%20Engineer&descAlignY=57&descSize=18" width="100%"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Full-Stack+Developer;Golang+Backend+Engineer;MERN+Stack+Developer;React+%7C+Node.js+%7C+Express+%7C+MongoDB;Distributed+Systems+%26+API+Architecture;Clean+Code+%7C+Clean+Architecture;Always+Learning+%7C+Always+Shipping)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Full-Stack+Developer;Golang+Backend+Engineer;MERN+Stack+Developer;Python+%7C+LangChain+%7C+AI+Agent+Builder;React+%7C+Node.js+%7C+Express+%7C+MongoDB;Distributed+Systems+%26+API+Architecture;Clean+Code+%7C+Clean+Architecture;Always+Learning+%7C+Always+Shipping)](https://git.io/typing-svg)
 
 <br/>
 
@@ -27,6 +27,7 @@ type Developer struct {
 	Role        string
 	Frontend    []string
 	Backend     []string
+	AI          []string
 	Databases   []string
 	CurrentWork string
 	Learning    []string
@@ -36,23 +37,25 @@ type Developer struct {
 func main() {
 	me := Developer{
 		Name:        "Vinayak",
-		Role:        "Full-Stack Developer (Go + MERN)",
+		Role:        "Full-Stack Developer (Go + MERN) & AI Engineer",
 		Frontend:    []string{"React", "JavaScript", "TailwindCSS", "HTML", "CSS"},
 		Backend:     []string{"Go (Gin)", "Node.js", "Express.js", "REST APIs", "JWT"},
-		Databases:   []string{"MongoDB", "PostgreSQL", "MySQL"},
+		AI:          []string{"Python", "LangChain", "LangGraph", "ReAct Agents", "Groq LLMs", "RAG"},
+		Databases:   []string{"MongoDB", "PostgreSQL", "MySQL", "SQLite"},
 		CurrentWork: "RestroCore — Scalable Restaurant System in Go",
-		Learning:    []string{"Advanced Go", "System Design", "Docker", "CI/CD", "Cloud"},
-		Goal:        "Build scalable, beautiful & production-ready full-stack systems",
+		Learning:    []string{"Advanced Go", "System Design", "Docker", "CI/CD", "Cloud", "Agentic AI"},
+		Goal:        "Build scalable, beautiful & production-ready full-stack + AI systems",
 	}
 	fmt.Printf("Hi there! I'm %s 👋\n", me.Name)
 }
 ```
 
 - 🔭 Currently building: **RestroCore** — a scalable restaurant system (Go backend + React frontend)
-- 🌱 Deep-diving into: **Advanced Go, System Design, Docker & Cloud**
-- 🤝 Open to collaborate on: **MERN projects, Go backends & full-stack apps**
-- 💬 Ask me about: **React, Node.js, Golang, REST APIs, Databases, Clean Architecture**
-- ⚡ Fun Fact: *I build the API and the UI — and I enjoy both.*
+- 🤖 Also building: **AI Agents** with LangChain, LangGraph & Groq LLMs
+- 🌱 Deep-diving into: **Advanced Go, Agentic AI, System Design, Docker & Cloud**
+- 🤝 Open to collaborate on: **MERN projects, Go backends, full-stack apps & AI pipelines**
+- 💬 Ask me about: **React, Node.js, Golang, Python, LangChain, REST APIs, Clean Architecture**
+- ⚡ Fun Fact: *I build the API, the UI, and the AI — and I enjoy all three.*
 - 📫 Reach me: **4517vinayak12a1@gmail.com**
 
 ---
@@ -86,16 +89,25 @@ func main() {
 ![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
+### 🤖 AI & Python
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+
 ### 🗄️ Databases
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 ### 🚀 DevOps & Tools
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ---
 
@@ -103,18 +115,18 @@ func main() {
 
 <div align="center">
 
-| 🎨 Frontend | ⚙️ Backend |
-|:---:|:---:|
-| Responsive UIs with **React** | Scalable APIs with **Go (Gin)** |
-| Component-driven design + **TailwindCSS** | RESTful services with **Node.js + Express** |
-| Smooth UX & clean interfaces | Auth, Middleware & Clean Architecture |
-| State management & API integration | MongoDB + PostgreSQL data modeling |
+| 🎨 Frontend | ⚙️ Backend | 🤖 AI & Agents |
+|:---:|:---:|:---:|
+| Responsive UIs with **React** | Scalable APIs with **Go (Gin)** | **LangChain** pipelines & chains |
+| Component-driven + **TailwindCSS** | RESTful services with **Node.js** | **ReAct Agents** with tool use |
+| Smooth UX & clean interfaces | Auth, Middleware & Clean Architecture | **LangGraph** stateful agent flows |
+| State management & API integration | MongoDB + PostgreSQL data modeling | LLM-powered **SQL & web agents** |
 
 </div>
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
 
 <div align="center">
 
@@ -125,6 +137,14 @@ func main() {
 | ✅ Authentication · Menu Management · Orders · Table Tracking |
 | 🔜 React frontend dashboard coming soon |
 | 🔗 [View Repository →](https://github.com/VINAYAK777CODER/RestroCore) |
+
+| 🦜 LangChain AI Agent Project |
+|---|
+| **Stack:** Python · LangChain · LangGraph · Groq · SQLite |
+| 🤖 ReAct agents with web search, Wikipedia & custom enterprise tools |
+| ✅ LLM Chains · Parallel Chains · Conditional Routing · Structured Outputs |
+| ✅ SQL Database Agent — natural language → live query results |
+| 🔗 [View Repository →](https://github.com/VINAYAK777CODER/langchain-project) |
 
 </div>
 
@@ -151,6 +171,7 @@ func main() {
 ```
 🎨 Frontend  →  Building polished React UIs with TailwindCSS
 ⚙️ Backend   →  Mastering Golang internals, concurrency & clean architecture
+🤖 AI        →  LangChain agents, LangGraph flows & Groq-powered LLM pipelines
 🗄️ Database  →  Advanced MongoDB patterns & PostgreSQL optimization
 ☁️ DevOps    →  Docker, CI/CD pipelines & cloud deployment
 📐 Design    →  System design, distributed systems & microservices
@@ -160,7 +181,7 @@ func main() {
 
 ## 🏆 Vision
 
-> *To be a developer who can own the full product — from a pixel-perfect React frontend to a blazing-fast Go backend. Whether it's MERN or Go, the goal is always clean, scalable, and production-ready.*
+> *To be a developer who can own the full product — from a pixel-perfect React frontend to a blazing-fast Go backend, and now AI agents that think and act. Whether it's MERN, Go, or LangChain, the goal is always clean, scalable, and production-ready.*
 
 ---
 
